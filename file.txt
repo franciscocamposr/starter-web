@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: appweb
+spec:
+  containers:
+  - name: appweb
+    image: richardchesterwood/k8s-fleetman-webapp-angular:release0-5
+	
+kubectl apply -f 
+kibectl get pod all 
+
+
